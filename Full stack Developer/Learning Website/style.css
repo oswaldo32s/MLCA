@@ -1,3 +1,7 @@
+html {
+    margin: 0;
+}
+
 table, td, tr {
     border: 1px solid black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -6,6 +10,7 @@ table, td, tr {
 
 body {
     background-color: #EFEFEF;
+    margin: 0;
 }
 
 .header {
@@ -14,4 +19,33 @@ body {
 
 p {
     color: #112B3C;
+}
+
+header {
+    background-color: #F66B0E;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    border-bottom: 2px solid #112B3C;
+    top: 0;
+}
+
+.HTML {
+    position: absolute;
+}
+
+ul {
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+li {
+    color: #112B3C;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    width: 80px;
+
 }
