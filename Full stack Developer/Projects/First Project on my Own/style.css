@@ -1,0 +1,41 @@
+header h1 {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url(./resources/Images/tile_patern.jpeg);
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+h3 {
+  font-family: Helvetica;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+.bold_blue {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+#btitle {
+  background-color: mediumspringgreen;
+}
+
+#ftitle {
+  background-color: lightcoral;
+}
+
+#ptitle {
+  background-color: skyblue;
+}
