@@ -11,10 +11,11 @@ table, td, tr {
 body {
     background-color: #EFEFEF;
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header {
-    color: #F66B0E;
+    color: #112B3C;
 }
 
 p {
@@ -48,4 +49,8 @@ li {
     display: inline-block;
     width: 80px;
 
+}
+
+.HTML {
+    position: relative;
 }
