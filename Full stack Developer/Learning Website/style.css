@@ -14,10 +14,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header {
-    color: #112B3C;
-}
-
 p {
     color: #112B3C;
 }
@@ -31,8 +27,8 @@ header {
     top: 0;
 }
 
-.HTML {
-    position: absolute;
+h1 {
+    position: relative;
 }
 
 ul {
@@ -53,4 +49,19 @@ li {
 
 .HTML {
     position: relative;
+    margin: 50px;
+    top: 30px;
+}
+
+.CSS {
+    position: relative;
+    top: 50px;
+}
+
+.JavaScript {
+    position: relative;
+}
+
+.header {
+    color: #112B3C;
 }
