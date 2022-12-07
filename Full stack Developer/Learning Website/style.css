@@ -80,3 +80,7 @@ header li:hover {
 header a:active {
     color: #EFEFEF;
 }
+
+footer {
+color: #6ba2fa
+}
