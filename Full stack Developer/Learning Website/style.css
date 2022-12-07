@@ -14,10 +14,6 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header {
-    color: #112B3C;
-}
-
 p {
     color: #112B3C;
 }
@@ -29,15 +25,15 @@ header {
     width: 100%;
     border-bottom: 2px solid #112B3C;
     top: 0;
+    text-align: center;
 }
 
-.HTML {
-    position: absolute;
+h1 {
+    position: relative;
 }
 
 ul {
-    margin: 20px auto;
-    padding: 0 20px;
+    margin: 0;
     text-align: left;
 }
 
@@ -47,10 +43,44 @@ li {
     font-size: 16px;
     font-weight: bold;
     display: inline-block;
-    width: 80px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    line-height: 55px;
+}
 
+a {
+    color: #112B3C;
+    text-decoration: none;
 }
 
 .HTML {
     position: relative;
+    margin: 50px;
+    top: 30px;
+}
+
+.CSS {
+    position: relative;
+    top: 50px;
+}
+
+.JavaScript {
+    position: relative;
+}
+
+.header {
+    color: #112B3C;
+}
+
+header li:hover {
+    background-color: #ffa264;
+}
+
+header a:active {
+    color: #EFEFEF;
+}
+
+footer {
+color: #6ba2fa
 }
