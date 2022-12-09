@@ -1,0 +1,105 @@
+body {
+  font-family: 'Comfortaa', 'Source Code Pro', 'Rajdhani',  cursive;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.container {
+  border: 2px solid;
+  border-color: gray;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 31.5%;
+  text-align: center;
+  margin: 15px 5px;
+}
+.dgray {
+  background-color: #3b4b61;
+  color: white;
+}
+
+.mgray {
+  background-color: #617a88;
+  color: white;
+}
+
+.lgray {
+  background-color: #bac6c7;
+  color: #293241;
+}
+
+.wwhite {
+  background-color: #fffcf2;
+  color: #293241;
+}
+
+.orange {
+  background-color: #eca757;
+  color: #293241;
+}
+
+.black {
+  background-color: #293241;
+  color: white;
+}
+
+.font-container {
+  display: inline-block;
+  width: 49%;
+}
+
+.comfortaa {
+  font-family: "comfortaa";
+}
+
+.SCP {
+  font-family: "Source Code Pro";
+}
+
+.Rajdhani {
+  font-family: "Rajdhani";
+}
+
+.font-label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.font-light {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.font-medium {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.font-bold {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.main-heading {
+  font-weight: 700;
+  font-family: 'Comfortaa';
+}
+
+.subheading {
+  font-weight: 700;
+  font-family: 'Comfortaa';
+}
+
+.paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Comfortaa';
+}
