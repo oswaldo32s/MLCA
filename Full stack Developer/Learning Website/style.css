@@ -9,9 +9,10 @@ table, td, tr {
 }
 
 body {
-    background-color: #EFEFEF;
+    background-color: #293241;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #dff1f1;
 }
 
 p {
@@ -19,7 +20,7 @@ p {
 }
 
 header {
-    background-color: #F66B0E;
+    background-color: #ee6c4d;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -38,7 +39,7 @@ ul {
 }
 
 li {
-    color: #112B3C;
+    color: #293241;
     font-family: sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -50,7 +51,7 @@ li {
 }
 
 a {
-    color: #112B3C;
+    color: #293241;
     text-decoration: none;
 }
 
@@ -74,7 +75,7 @@ a {
 }
 
 header li:hover {
-    background-color: #ffa264;
+    background-color: #ee6c4d;
 }
 
 header a:active {
