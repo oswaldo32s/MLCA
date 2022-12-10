@@ -1,0 +1,122 @@
+
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  opacity: 0.9;
+  margin: 0;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  border: 1px solid seashell;
+  height: 69px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin: 0 10px;
+}
+
+.index {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+width: 100%;
+}
+
+.index-box {
+  margin: auto 15px;
+}
+
+.main-pic-section{
+  background-image: url("resources/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.text-section {
+  background-color: black;
+  width: 1200px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+}
+
+.box-container{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.pic-container {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+
+}
+
+.food-pics {
+  width: 300px;
+  height: 200px;
+  margin: 0 20px;
+}
+
+.food-text {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+}
+
+.food-text h4 {
+  padding: 0;
+  margin: 10px;
+}
+
+.locations {
+  background-image: url("resources/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-flow: column;
+  margin-top: 50px;
+  
+}
+.location-boxes {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.location-box {
+  width: 300px;
+  background-color: black;
+  height: 300px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+footer {
+  text-align: left;
+  margin: 20px;
+}
