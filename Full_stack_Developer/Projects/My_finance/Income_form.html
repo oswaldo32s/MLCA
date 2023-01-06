@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./resources/css/style.css" rel="stylesheet">
+  <title>Income</title>
+</head>
+<body>
+  <header>
+    <ul>
+      <li>Home</li>
+      <li>My Expenses</li>
+      <li>My Income</li>
+      <li>Expense Form</li>
+      <li>Income Form</li>
+    </ul>
+  </header>
+  <div class="inform-description">
+    <h1>Income Form</h1>
+    <p>This form helps you to track all source of income you get. Please make sure to input all incomes, to make sure this is as accurate as possible.
+      This data will be use for analytics purposes.
+    </p>
+  </div>
+  <div class="form">
+    <form>
+      <section class="question1">
+        <label for="inc-date">Income Date: </label>
+        <input type="date" id="inc-date" name="inc-date" required>
+      </section>
+      <section>
+        <label for="inc-type">Income Type: </label>
+      </section>
+      <section>
+        <label for="inc-amount">Income Amount: </label>
+        <input type="number" id="inc-amount" name="inc-amount" required min="0">
+      </section>
+    </form>
+  </div>
+  
+</body>
+</html>
