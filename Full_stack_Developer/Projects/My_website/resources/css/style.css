@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #102E44;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+nav {
+  flex: 2;
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
